@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd">
+<gmd:fileIdentifier>
+		<gco:CharacterString>MUCSC_2017_30_m_v_4</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>ca</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="8859part1">8859part1</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Capa</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Capa-Full</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+				<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+			</gmd:organisationName>
+<gmd:contactInfo>
+				<gmd:CI_Contact>
+<gmd:address>
+						<gmd:CI_Address>
+<gmd:electronicMailAddress>
+								<gco:CharacterString>https://territori.gencat.cat/</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/usos-sol-subsol/usos-sol/</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">Descàrrega</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+<gmd:role>
+				<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">Proveïdor de recursos</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+<gmd:dateStamp>
+		<gco:Date>2023-04-11</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/Cor.1:2006 Geographic Information - Metadata</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>IS</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo> 
+	<gmd:MD_Georectified>
+		<gmd:numberOfDimensions>
+			<gco:Integer>2</gco:Integer>
+		</gmd:numberOfDimensions>
+		<gmd:axisDimensionProperties>
+			<gmd:MD_Dimension>
+				<gmd:dimensionName>
+					<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">Fila</gmd:MD_DimensionNameTypeCode>
+				</gmd:dimensionName>
+				<gmd:dimensionSize>
+					<gco:Integer>8651</gco:Integer>
+				</gmd:dimensionSize>
+				<gmd:resolution>
+						<gco:Length uom="m">30</gco:Length>
+				</gmd:resolution>
+			</gmd:MD_Dimension>
+		</gmd:axisDimensionProperties>
+		<gmd:axisDimensionProperties>
+			<gmd:MD_Dimension>
+				<gmd:dimensionName>
+					<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">Columna</gmd:MD_DimensionNameTypeCode>
+				</gmd:dimensionName>
+				<gmd:dimensionSize>
+					<gco:Integer>8981</gco:Integer>
+				</gmd:dimensionSize>
+				<gmd:resolution>
+						<gco:Length uom="m">30</gco:Length>
+				</gmd:resolution>
+			</gmd:MD_Dimension>
+		</gmd:axisDimensionProperties>
+		<gmd:cellGeometry>
+			<gmd:MD_CellGeometryCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">Àrea</gmd:MD_CellGeometryCode> 
+		</gmd:cellGeometry>
+		<gmd:transformationParameterAvailability>
+			<gco:Boolean>true</gco:Boolean>
+		</gmd:transformationParameterAvailability>
+		<gmd:checkPointAvailability>
+				<gco:Boolean>false</gco:Boolean>
+		</gmd:checkPointAvailability>
+		<gmd:cornerPoints>
+			<gml:Point gml:id="NW_corner">
+				<gml:pos>260160 4747980</gml:pos>
+			</gml:Point>
+		</gmd:cornerPoints>
+		<gmd:cornerPoints>
+			<gml:Point gml:id="SE_corner">
+				<gml:pos>529560 4488480</gml:pos>
+			</gml:Point>
+		</gmd:cornerPoints>
+		<gmd:pointInPixel>
+			<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+		</gmd:pointInPixel>
+	</gmd:MD_Georectified>
+</gmd:spatialRepresentationInfo>
+<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/25831</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Usos/Cobertes del sòl de Catalunya 2017</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>Usos/Cobertes del sòl de Catalunya 2017</gco:CharacterString>
+					</gmd:alternateTitle>
+<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2019-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">Creació</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-04-11</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:editionDate>
+						<gco:Date>2019-01-01</gco:Date>
+					</gmd:editionDate>				
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>MUCSC_2017_30_m_v_4</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+<gmd:abstract>
+				<gco:CharacterString>Cartografia d&apos;usos i cobertes del sòl de Catalunya de l&apos;any 2017 obtinguda mitjançant classificació automàtica d&apos;imatges Sentinel-2A i Sentinel-2B de resolució espacial 10 m i informació auxiliar proporcionada per la Generalitat de Catalunya provinent del Mapa urbanístic de Catalunya (https://territori.gencat.cat/ca/06_territori_i_urbanisme/observatori_territori/mapa_urbanistic_de_catalunya/) i  el Graf de carreteres (https://territori.gencat.cat/ca/01_departament/12_cartografia_i_toponimia/bases_cartografiques/infraestructures_mobilitat/infraestructures_terrestres/graf_infraestructures_terrestres) del Departament de Territori, així com de la  Base cartogràfica d&apos;incendis forestals (https://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/boscos/incendis-forestals) del Departament d&apos;Acció Climàtica, Alimentació i Agenda Rural i les dades del lidar del Institut Cartogràfic i Geològic de Catalunya (ICGC) (https://www.icgc.cat/Administracio-i-empresa/Descarregues/Elevacions/Dades-lidar). En aquesta distribució s&apos;ha aplicat una metodologia específica per a la millora de la consistència temporal de tota la sèrie MUCSC.</gco:CharacterString>
+			</gmd:abstract>
+<gmd:purpose>
+				<gco:CharacterString>Anàlisi dels canvis en els usos i cobertes del sòl a Catalunya.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+						<gco:CharacterString>Grup de Recerca en Teledetecció i Sistemes d&apos;Informació Geogràfica [Grumets, CREAF-UAB]</gco:CharacterString>
+					</gmd:organisationName>
+<gmd:contactInfo>
+						<gmd:CI_Contact>
+<gmd:address>
+								<gmd:CI_Address>
+<gmd:electronicMailAddress>
+										<gco:CharacterString>https://www.grumets.cat/</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://www.grumets.cat/</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Informació</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">Autor</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+						<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+					</gmd:organisationName>
+<gmd:contactInfo>
+						<gmd:CI_Contact>
+<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>web.gencat.cat</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Informació</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">Propietari</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+<gmd:individualName>
+						<gco:CharacterString>Xavier Pons</gco:CharacterString>
+					</gmd:individualName>
+<gmd:organisationName>
+						<gco:CharacterString>Grup de Recerca en Teledetecció i Sistemes d&apos;Informació Geogràfica [Grumets, CREAF-UAB]</gco:CharacterString>
+					</gmd:organisationName>
+<gmd:positionName>
+						<gco:CharacterString>Cap de grup</gco:CharacterString>
+					</gmd:positionName>
+<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">Investigador principal</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+<gmd:keyword>
+						<gco:CharacterString>ús del sòl</gco:CharacterString>
+					</gmd:keyword>
+<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function> 
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""></gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Creador</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+<gmd:keyword>
+						<gco:CharacterString>coberta terrestre</gco:CharacterString>
+					</gmd:keyword>
+<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function> 
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""></gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Creador</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+<gmd:keyword>
+						<gco:CharacterString>teledetecció</gco:CharacterString>
+					</gmd:keyword>
+<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function> 
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""></gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Creador</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+<gmd:keyword>
+						<gco:CharacterString>cartografia (mapes)</gco:CharacterString>
+					</gmd:keyword>
+<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function> 
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""></gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Creador</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+<gmd:keyword>
+						<gco:CharacterString>Catalunya</gco:CharacterString>
+					</gmd:keyword>
+<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">Lloc</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>Tesaurus del MiraMon</gco:CharacterString>
+							</gmd:title>
+<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2022-11-30</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revisió</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+										<gco:CharacterString>MiraMon</gco:CharacterString>
+									</gmd:organisationName>
+<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.miramon.cat</gmd:URL>
+													</gmd:linkage>
+													<gmd:function> 
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Informació</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Creador</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">Quadrícula</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>25000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">30</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gmd:LanguageCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="cat">Català</gmd:LanguageCode>
+			</gmd:language>			
+<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+<gmd:geographicElement>
+						<gmd:EX_GeographicDescription>
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:geographicIdentifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>Catalunya</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:geographicIdentifier>
+						</gmd:EX_GeographicDescription>
+					</gmd:geographicElement>
+<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>0.064670850529467</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>3.36216542094461</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>40.5122448548545</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>42.8839825875495</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:supplementalInformation>
+				<gco:CharacterString>Els valors de la qualitat geomètrica de la capa documentats en aquestes metadades han estat calculats mitjançant la col·locació de punts de test a partir de l&apos;ortofoto vigent (2016-2018) a escala 1:5000 de l&apos;ICGC. </gco:CharacterString>
+			</gmd:supplementalInformation>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>		
+	<gmd:contentInfo>
+	 <gmd:MD_CoverageDescription>
+			<gmd:attributeDescription>
+				<gco:RecordType>CLASSIF_2017: Usos/Cobertes del sòl de Catalunya 2017 (byte-RLE)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="thematicClassification">Classificació temàtica categòrica (p.ex., mapa d&apos;usos del sòl)</gmd:MD_CoverageContentTypeCode>                                                                                                                
+			</gmd:contentType>
+			<gmd:dimension>
+			<gmd:MD_RangeDimension>
+				<gmd:sequenceIdentifier>
+					<gco:MemberName id="ID_CLASSIF_2017">
+						<gco:aName>
+							<gco:CharacterString>CLASSIF_2017</gco:CharacterString>
+						</gco:aName>
+						<gco:attributeType>
+							<gco:TypeName>
+								<gco:aName>
+									<gco:CharacterString>CampGeneric</gco:CharacterString>
+								</gco:aName>
+							</gco:TypeName>
+						</gco:attributeType>
+					</gco:MemberName>
+				</gmd:sequenceIdentifier>
+			</gmd:MD_RangeDimension>
+		</gmd:dimension>
+		</gmd:MD_CoverageDescription>
+	 </gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+								<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+							</gmd:organisationName>
+<gmd:role>
+									<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">Distribuïdor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>MMZX</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>1</gco:CharacterString>
+							</gmd:version>
+<gmd:amendmentNumber>
+								<gco:CharacterString>0</gco:CharacterString>
+							</gmd:amendmentNumber>
+<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>ZIP</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>					
+<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions>
+<gmd:unitsOfDistribution>
+								<gco:CharacterString>Catalunya</gco:CharacterString>
+							</gmd:unitsOfDistribution>
+<gmd:transferSize>
+								<gco:Real>11</gco:Real>
+							</gmd:transferSize>
+							<!-- ##DISTRIBUTION_INFO:ORGANISME:TRANSFER_OPTIONS:ONLINE_RESOURCES## -->
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://agricultura.gencat.cat/ca/serveis/cartografia-sig/bases-cartografiques/usos-sol-subsol/usos-sol/</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>https</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:description>
+										<gco:CharacterString>Descàrrega dels mapes en l&apos;estàndard internacional MMZX (ISO 19165) i en GeoTIFF</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">Descàrrega</gmd:CI_OnLineFunctionCode>
+									</gmd:function>							
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+							<!-- ##FiDISTRIBUTION_INFO:ORGANISME:TRANSFER_OPTIONS:ONLINE_RESOURCES## -->
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>		
+	</gmd:distributionInfo>
+<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Capa</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS (test independent)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud posicional:Exactitud horitzontal relativa:RMS (test independent)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>3.77</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS en X (test independent)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud posicional:Exactitud horitzontal relativa:RMS en X (test independent)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>5.69</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS en Y (test independent)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud posicional:Exactitud horitzontal relativa:RMS en Y (test independent)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>3.81</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+<gmd:statement>
+						<gco:CharacterString>Vidal-Macua JJ, Zabala A, Ninyerola M, Pons X (2017) Developing spatially and thematically detailed backdated maps for land cover studies. International Journal of Digital Earth 10 (2): 175-206. https://dx.doi.org/10.1080/17538947.2016.1213320 &lt;&lt;*&gt;&gt; González-Guerrero O, Pons X (2020) The 2017 Land Use/Land Cover Map of Catalonia based on Sentinel-2 images and auxiliary data. Revista de Teledetección 55: 81-92. DOI: 10.4995/raet.2020.13112. https://doi.org/10.4995/raet.2020.13112. &lt;&lt;*&gt;&gt; Padial-Iglesias M, Serra P, Ninyerola M, Pons X. A Framework of Filtering Rules over Ground Truth Samples to Achieve Higher Accuracy in Land Cover Maps. Remote Sensing. 2021; 13(14):2662. https://doi.org/10.3390/rs13142662</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="attribute">Atribut</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:attributes xlink:href="ID_CLASSIF_2017"/>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>				
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global (només els classificats)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global (només els classificats)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>98.00</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>98.00</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global ponderat a partir de la superfície de la capa a avaluar</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global ponderat a partir de la superfície de la capa a avaluar</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>97.50</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global ponderat a partir de la superfície de la capa a avaluar (només els classificats)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global ponderat a partir de la superfície de la capa a avaluar (només els classificats)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>97.50</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global ponderat a partir de la superfície de les àrees de veritat terreny</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global ponderat a partir de la superfície de les àrees de veritat terreny</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>97.58</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Encert global ponderat a partir de la superfície de les àrees de veritat terreny (només els classificats)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureDescription>
+						<gco:CharacterString>Exactitud semàntica (dades categòriques):Exactitud de classificació temàtica:Encert global ponderat a partir de la superfície de les àrees de veritat terreny (només els classificats)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Real de doble precisió</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#ParameterIndicadorMeasureResultUnitsHori"></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>97.58</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gmd:MD_Metadata>
